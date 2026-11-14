@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>9X Profit Panel</title>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2043323346623969');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2043323346623969&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding:20px;
+}
+
+.container{
+width:100%;
+max-width:380px;
+text-align:center;
+}
+
+.profile{
+width:180px;
+height:180px;
+border-radius:50%;
+object-fit:cover;
+border:7px dotted #8e8177;
+}
+
+.headline{
+font-size:30px;
+font-weight:900;
+margin-top:18px;
+color:#000;
+line-height:40px;
+}
+
+.join-text{
+font-size:15px;
+margin-top:12px;
+color:#222;
+letter-spacing:1px;
+}
+
+.telegram-btn{
+margin-top:25px;
+background:#0088ff;
+color:white;
+text-decoration:none;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:15px;
+padding:18px;
+border-radius:50px;
+font-size:22px;
+font-weight:bold;
+box-shadow:0 8px 18px rgba(0,136,255,0.35);
+transition:0.3s;
+}
+
+.telegram-btn:hover{
+transform:scale(1.03);
+}
+
+.telegram-btn img{
+width:28px;
+height:28px;
+}
+
+.countdown{
+display:flex;
+justify-content:center;
+gap:18px;
+margin-top:28px;
+}
+
+.box{
+text-align:center;
+}
+
+.num{
+font-size:34px;
+font-weight:bold;
+color:#b3002d;
+}
+
+.label{
+font-size:14px;
+color:#b3002d;
+margin-top:4px;
+}
+
+.powered{
+margin-top:120px;
+}
+
+.powered img{
+width:180px;
+}
+
+@media(max-width:480px){
+
+.profile{
+width:160px;
+height:160px;
+}
+
+.headline{
+font-size:24px;
+line-height:34px;
+}
+
+.telegram-btn{
+font-size:18px;
+padding:16px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="https://i.supaimg.com/d275b551-c8a3-4cb3-8cad-e52fd9012fd7/42848c59-b552-48e7-8f1c-3cbaea21e25f.jpg" class="profile">
+
+<div class="headline">
+𝟗𝐗 𝐏𝐑𝐎𝐅𝐈𝐓 𝐁𝐘 𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐇𝐀𝐈
+</div>
+
+<div class="join-text">
+VIP PANEL JOIN KARO FAST 🚀
+</div>
+
+<a href="https://t.me/+mPg0L6NRrykyYTc1" class="telegram-btn">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg">
+
+JOIN TELEGRAM
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg">
+
+</a>
+
+<div class="countdown">
+
+<div class="box">
+<div class="num">00</div>
+<div class="label">DAYS</div>
+</div>
+
+<div class="box">
+<div class="num">00</div>
+<div class="label">HOURS</div>
+</div>
+
+<div class="box">
+<div class="num">00</div>
+<div class="label">MINUTES</div>
+</div>
+
+<div class="box">
+<div class="num" id="sec">59</div>
+<div class="label">SECONDS</div>
+</div>
+
+</div>
+
+<div class="powered">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Systeme.io_logo.png">
+</div>
+
+</div>
+
+<script>
+
+let sec = 59;
+
+setInterval(()=>{
+
+sec--;
+
+if(sec < 0){
+sec = 59;
+}
+
+document.getElementById("sec").innerHTML =
+sec.toString().padStart(2,'0');
+
+},1000);
+
+</script>
+
+</body>
+</html>
